@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\BGAPI">
+      <UniqueIdentifier>{3c8d3ab6-9439-4242-b1ac-b0622743f4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\TinyXML">
+      <UniqueIdentifier>{b13e38b2-22db-4c8f-ada9-a4a40f3088c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\BGAPI">
+      <UniqueIdentifier>{dedb5dac-9c12-4831-84d4-9e1ce3a40709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\TinyXML">
+      <UniqueIdentifier>{cd541f38-c30b-40ca-9e4a-6395e65c5d24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bgapi\ble_handler.cpp">
+      <Filter>ソース ファイル\BGAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="bgapi\cmd_def.c">
+      <Filter>ソース ファイル\BGAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>ソース ファイル\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>ソース ファイル\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>ソース ファイル\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>ソース ファイル\TinyXML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="joint_config_gui.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bgapi\apitypes.h">
+      <Filter>ヘッダー ファイル\BGAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="bgapi\cmd_def.h">
+      <Filter>ヘッダー ファイル\BGAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>ヘッダー ファイル\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>ヘッダー ファイル\TinyXML</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
